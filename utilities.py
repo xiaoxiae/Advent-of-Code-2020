@@ -10,6 +10,4 @@ def success(text):
 
 def get_input(as_int=False):
     result = open("input", "r").read().strip().splitlines()
-
-    if as_int:
-        return list(map(int, result))
+    return list(map(int, result)) if as_int else result
