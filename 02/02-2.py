@@ -16,4 +16,4 @@ for value in input:
     if (password[i] == policy or password[j] == policy) and password[i] != password[j]:
         total += 1
 
-print(total)
+success(total)

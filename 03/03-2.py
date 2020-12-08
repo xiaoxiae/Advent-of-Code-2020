@@ -18,4 +18,4 @@ for xd, yd in slopes:
             trees += 1
     product *= trees
 
-print(product)
+success(product)

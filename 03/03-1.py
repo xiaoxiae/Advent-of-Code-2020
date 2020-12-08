@@ -14,4 +14,4 @@ for y in range(1, len(input)):
     if input[y][x] == "#":
         trees += 1
 
-print(trees)
+success(trees)

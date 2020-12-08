@@ -13,4 +13,4 @@ for value in input:
     if lo <= password.count(policy) <= hi:
         total += 1
 
-print(total)
+success(total)
